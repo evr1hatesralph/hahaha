@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Shoes - SoleStyle</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>SoleStyle</h1>
+            <p>Walk in Comfort, Step in Style</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html" class="active">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="sale.html">Sale</a></li>
+                <li><a href="new-arrivals.html">New Arrivals</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="account.html">My Account</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="cart.html">Cart (0)</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> > Men's Shoes
+        </div>
+
+        <section class="category-banner">
+            <h1>Men's Shoes</h1>
+            <p>Find the perfect shoes for every occasion - from professional to casual, from sports to special events.</p>
+        </section>
+
+        <div class="category-content">
+            <aside class="filter-sidebar">
+                <div class="filter-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="men-running.html">Running Shoes</a></li>
+                        <li><a href="men-casual.html">Casual Shoes</a></li>
+                        <li><a href="men-formal.html">Formal Shoes</a></li>
+                        <li><a href="men-sports.html">Sports Shoes</a></li>
+                        <li><a href="men-boots.html">Boots</a></li>
+                        <li><a href="men-sandals.html">Sandals</a></li>
+                    </ul>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Price Range</h3>
+                    <form>
+                        <label>
+                            <input type="checkbox" name="price" value="under50"> Under $50
+                        </label>
+                        <label>
+                            <input type="checkbox" name="price" value="50-100"> $50 - $100
+                        </label>
+                        <label>
+                            <input type="checkbox" name="price" value="100-150"> $100 - $150
+                        </label>
+                        <label>
+                            <input type="checkbox" name="price" value="150-200"> $150 - $200
+                        </label>
+                        <label>
+                            <input type="checkbox" name="price" value="over200"> Over $200
+                        </label>
+                    </form>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Size</h3>
+                    <div class="size-grid">
+                        <button>7</button>
+                        <button>7.5</button>
+                        <button>8</button>
+                        <button>8.5</button>
+                        <button>9</button>
+                        <button>9.5</button>
+                        <button>10</button>
+                        <button>10.5</button>
+                        <button>11</button>
+                        <button>11.5</button>
+                        <button>12</button>
+                        <button>12.5</button>
+                        <button>13</button>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Color</h3>
+                    <div class="color-options">
+                        <button class="color-option" style="background-color: black;"></button>
+                        <button class="color-option" style="background-color: white;"></button>
+                        <button class="color-option" style="background-color: grey;"></button>
+                        <button class="color-option" style="background-color: blue;"></button>
+                        <button class="color-option" style="background-color: red;"></button>
+                        <button class="color-option" style="background-color: green;"></button>
+                        <button class="color-option" style="background-color: brown;"></button>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Brand</h3>
+                    <form>
+                        <label>
+                            <input type="checkbox" name="brand" value="nike"> Nike
+                        </label>
+                        <label>
+                            <input type="checkbox" name="brand" value="adidas"> Adidas
+                        </label>
+                        <label>
+                            <input type="checkbox" name="brand" value="puma"> Puma
+                        </label>
+                        <label>
+                            <input type="checkbox" name="brand" value="reebok"> Reebok
+                        </label>
+                        <label>
+                            <input type="checkbox" name="brand" value="newbalance"> New Balance
+                        </label>
+                        <label>
+                            <input type="checkbox" name="brand" value="converse"> Converse
+                        </label>
+                        <label>
+                            <input type="checkbox" name="brand" value="vans"> Vans
+                        </label>
+                    </form>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Features</h3>
+                    <form>
+                        <label>
+                            <input type="checkbox" name="features" value="waterproof"> Waterproof
+                        </label>
+                        <label>
+                            <input type="checkbox" name="features" value="breathable"> Breathable
+                        </label>
+                        <label>
+                            <input type="checkbox" name="features" value="lightweight"> Lightweight
+                        </label>
+                        <label>
+                            <input type="checkbox" name="features" value="slip-resistant"> Slip Resistant
+                        </label>
+                        <label>
+                            <input type="checkbox" name="features" value="arch-support"> Arch Support
+                        </label>
+                    </form>
+                </div>
+
+                <button class="apply-filters">Apply Filters</button>
+                <button class="clear-filters">Clear All</button>
+            </aside>
+
+            <div class="products-container">
+                <div class="products-header">
+                    <p>Showing 24 of 128 products</p>
+                    <div class="sort-options">
+                        <label for="sort-by">Sort By:</label>
+                        <select id="sort-by" name="sort-by">
+                            <option value="featured">Featured</option>
+                            <option value="newest">Newest</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                            <option value="rating">Customer Rating</option>
+                        </select>
+                    </div>
+                    <div class="view-options">
+                        <button class="grid-view active">Grid</button>
+                        <button class="list-view">List</button>
+                    </div>
+                </div>
+
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-badge new">New</div>
+                        <div class="product-image">
+                            <img src="/api/placeholder/250/250" alt="Ultra Boost Running Shoes">
+                            <div class="quick-view">
+                                <button>Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="product1.html">Ultra Boost Running Shoes</a></h3>
+                            <div class="product-rating">
+                                <span>★★★★☆</span>
+                                <span>(126)</span>
+                            </div>
+                            <p class="product-price">$129.99</p>
+                            <div class="product-colors">
+                                <span class="color-swatch" style="background-color: black;"></span>
+                                <span class="color-swatch" style="background-color: blue;"></span>
+                                <span class="color-swatch" style="background-color: red;"></span>
+                                <span class="color-swatch" style="background-color: grey;"></span>
+                            </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="/api/placeholder/250/250" alt="Leather Oxford Dress Shoes">
+                            <div class="quick-view">
+                                <button>Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="product3.html">Leather Oxford Dress Shoes</a></h3>
+                            <div class="product-rating">
+                                <span>★★★★★</span>
+                                <span>(87)</span>
+                            </div>
+                            <p class="product-price">$149.99</p>
+                            <div class="product-colors">
+                                <span class="color-swatch" style="background-color: black;"></span>
+                                <span class="color-swatch" style="background-color: brown;"></span>
+                            </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-badge sale">Sale</div>
+                        <div class="product-image">
+                            <img src="/api/placeholder/250/250" alt="Classic Canvas Sneakers">
+                            <div class="quick-view">
+                                <button>Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="product2.html">Classic Canvas Sneakers</a></h3>
+                            <div class="product-rating">
+                                <span>★★★★☆</span>
+                                <span>(215)</span>
+                            </div>
+                            <p class="product-price"><span class="original-price">$79.99</span> $59.99</p>
+                            <div class="product-colors">
+                                <span class="color-swatch" style="background-color: white;"></span>
+                                <span class="color-swatch" style="background-color: black;"></span>
+                                <span class="color-swatch" style="background-color: blue;"></span>
+                                <span class="color-swatch" style="background-color: red;"></span>
+                            </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="/api/placeholder/250/250" alt="Hiking Boots">
+                            <div class="quick-view">
+                                <button>Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="product4.html">All-Terrain Hiking Boots</a></h3>
+                            <div class="product-rating">
+                                <span>★★★★☆</span>
+                                <span>(62)</span>
+                            </div>
+                            <p class="product-price">$179.99</p>
+                            <div class="product-colors">
+                                <span class="color-swatch" style="background-color: brown;"></span>
+                                <span class="color-swatch" style="background-color: black;"></span>
+                                <span class="color-swatch" style="background-color: green;"></span>
+                            </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="/api/placeholder/250/250" alt="Athletic Sneakers">
+                            <div class="quick-view">
+                                <button>Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="product5.html">Performance Athletic Sneakers</a></h3>
+                            <div class="product-rating">
+                                <span>★★★★★</span>
+                                <span>(108)</span>
+                            </div>
+                            <p class="product-price">$119.99</p>
+                            <div class="product-colors">
+                                <span class="color-swatch" style="background-color: black;"></span>
+                                <span class="color-swatch" style="background-color: white;"></span>
+                                <span class="color-swatch" style="background-color: blue;"></span>
+                            </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-badge bestseller">Best Seller</div>
+                        <div class="product-image">
+                            <img src="/api/placeholder/250/250" alt="Business Casual Shoes">
+                            <div class="quick-view">
+                                <button>Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="product6.html">Business Casual Loafers</a></h3>
+                            <div class="product-rating">
+                                <span>★★★★☆</span>
+                                <span>(193)</span>
+                            </div>
+                            <p class="product-price">$99.99</p>
+                            <div class="product-colors">
+                                <span class="color-swatch" style="background-color: brown;"></span>
+                                <span class="color-swatch" style="background-color: black;"></span>
+                            </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- Additional product cards would continue here -->
+                </div>
+
+                <div class="pagination">
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">Next »</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <div class="footer-section">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="men.html">Men's Shoes</a></li>
+                    <li><a href="women.html">Women's Shoes</a></li>
+                    <li><a href="kids.html">Kids' Shoes</a></li>
+                    <li><a href="sale.html">Sale Items</a></li>
+                    <li><a href="new-arrivals.html">New Arrivals</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="shipping.html">Shipping Policy</a></li>
+                    <li><a href="returns.html">Returns & Exchanges</a></li>
+                    <li><a href="size-guide.html">Size Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="our-story.html">Our Story</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="store-locator.html">Store Locator</a></li>
+                    <li><a href="sustainability.html">Sustainability</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/ninaysabelle.delossantos">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SoleStyle. All Rights Reserved.</p>
+            <div class="footer-legal">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms-of-service.html">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
